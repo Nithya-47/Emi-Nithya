@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #ece9e6, #ffffff);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.app-container {
+  min-height: 100vh;
+  padding: 2rem;
+  background: url('https://images.unsplash.com/photo-1607082349569-d425c6be35d6?auto=format&fit=crop&w=1000&q=80') no-repeat center center/cover;
+}
+
+.calculator-card {
+  max-width: 600px;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 15px;
+}
+
+.result-box {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
